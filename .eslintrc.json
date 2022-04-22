@@ -1,0 +1,38 @@
+{
+  "parser": "@babel/eslint-parser",
+
+  "rules": {
+    "complexity": "off",
+    "max-len":"off",
+    "max-params": [2, 4],
+    "max-statements":"off",
+    "max-depth": "off",
+    "max-nested-callbacks": "off",
+    "indent": [2, 2],
+    "linebreak-style": [2, "unix"],
+    "space-before-function-paren": [2, "always"],
+    "curly": [2, "all"],
+    "brace-style": [2, "1tbs"],
+    "quotes": [1, "single", "avoid-escape"],
+    "eqeqeq": [2, "allow-null"],
+    "semi": [2, "always"],
+    "new-cap": 0,
+    "no-console": "off",
+    "no-empty": 0,
+    "no-unused-vars": 1,
+    "space-before-blocks": [2, "always"],
+    "keyword-spacing": [2, {"before": true, "after": true, "overrides": {}}],
+    "no-trailing-spaces": [2, { "skipBlankLines": false }],
+    "cypress/no-unnecessary-waiting": "off",
+    "eol-last": 2
+  },
+
+  "env": {
+    "node": true
+  },
+
+  "extends": [
+    "eslint:recommended",
+    "plugin:cypress/recommended"
+  ]
+}
