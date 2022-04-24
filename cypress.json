@@ -12,5 +12,6 @@
     "*.js",
     "*.md"
   ],
-  "projectId": "hmquz5"
+  "projectId": "hmquz5",
+  "testFiles": "features/*.feature"
 }
