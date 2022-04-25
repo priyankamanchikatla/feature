@@ -61,4 +61,5 @@
         "editor.formatOnSave": true
     },
     "jira-plugin.workingProject": "",
+    "editor.bracketPairColorization.enabled": true
 }
